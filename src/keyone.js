@@ -178,7 +178,7 @@ bot.action('one3', ctx => {
                 inline_keyboard: [
                     [
                         { text: "Назад", callback_data: 'one2' },
-                        { text: "Menu", callback_data: 'start' },
+                        { text: "Menyuga qaytish", callback_data: 'start' },
                     ]
                 ]
             }
