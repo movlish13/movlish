@@ -7,7 +7,7 @@ app.use(helmet());
 
 require('dotenv').config()
 
-// require('./src/app')
+require('./src/app')
 require('./src/bot')
 require('./src/keyb')
 require('./src/keyone')
