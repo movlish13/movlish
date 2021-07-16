@@ -39,6 +39,8 @@ function sendStarMessage(ctx) {
 }
 
 bot.on("message", async ctx => {
+    
+    ctx.deleteMessage();
     const msg = ctx.message.text.toLowerCase()
 
     if (msg.includes(`шнк`)) {
