@@ -6,6 +6,17 @@ bot.start((ctx) => {
     sendStarMessage(ctx);
 })
 
+bot.start((ctx)=> {
+    ctx.reply('Salom men Echo bot');
+    ctx.reply(helpMessenger)
+})
+
+bot.help(ctx => {
+    let text = `<b>Botimiz qaytarishi mumkin bo'lgan komponentlar:</b> \n` + `/start - <code>botni ishga tushirish byrug'i</code> \n` + `/help - yordamchi buyruq \n` + `<pre>Iltimos buruqlarni kirilchada yozing (asosan ruscha)</pre>Masalan: <code> шнк, штукатурка, двер ...</code>`
+
+    ctx.replyWithHTML(text).then()
+})
+
 function sendStarMessage(ctx) {
     
     ctx.deleteMessage();
