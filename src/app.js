@@ -2,6 +2,10 @@ require('dotenv').config()
 const { Markup } = require('telegraf')
 const { bot } = require('./bot')
 
+bot.start((ctx) => {
+    sendStarMessage(ctx);
+})
+
 function sendStarMessage(ctx) {
     
     ctx.deleteMessage();
