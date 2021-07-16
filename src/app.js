@@ -44,7 +44,7 @@ bot.on("message", async ctx => {
     const msg = ctx.message.text.toLowerCase()
 
     if (msg.includes(`шнк`)) {
-        ctx.replyWithHTML(`ШНК (SHNQ SHaharsozlik Norma va Qoidalar) bilan tanishing`)
+//         ctx.replyWithHTML(`ШНК (SHNQ SHaharsozlik Norma va Qoidalar) bilan tanishing`)
         sendStarMessage(ctx);
     }
     if (msg.includes(`штукатурка`)) {
