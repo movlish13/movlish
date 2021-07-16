@@ -21,7 +21,7 @@ function sendStarMessage(ctx) {
     
     ctx.deleteMessage();
 
-    let startMessage = 'Xush kelibsiz aziz mehmon siz bu yerda ШНК (SHNQ Shaharsozlik Norma va Qoidalari) bilan tanishasiz ';
+    let startMessage = `Xush kelibsiz aziz mehmon siz bu yerda ШНК (SHNQ Shaharsozlik Norma va Qoidalari) bilan tanishasiz\n/star va /help buyrug'laridan foydalanishingiz mumkin!`;
     bot.telegram.sendMessage(ctx.chat.id, startMessage,
         {
             reply_markup: {
