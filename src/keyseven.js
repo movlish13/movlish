@@ -35,18 +35,3 @@ bot.action('seven', ctx => {
         }
     )
 })
-
-
-bot.hears('/Отправить', ctx => {
-
-    ctx.deleteMessage();
-    bot.telegram.sendDocument(ctx.chat.id,
-        {
-            source: "media/11.doc"
-        },
-        // documentga rasm qo'yib jo'natadi
-        // {
-        //     thumb: { source: "media/arm.jpg" }
-        // }
-    )
-})
