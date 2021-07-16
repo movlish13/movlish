@@ -2,6 +2,41 @@ require('dotenv').config()
 const { Markup } = require('telegraf')
 const { bot } = require('./bot')
 
+function sendStarMessage(ctx) {
+    
+    ctx.deleteMessage();
+
+    let startMessage = 'Xush kelibsiz aziz mehmon siz bu yerda ШНК (SHNQ Shaharsozlik Norma va Qoidalari) bilan tanishasiz ';
+    bot.telegram.sendMessage(ctx.chat.id, startMessage,
+        {
+            reply_markup: {
+                inline_keyboard: [
+                    [
+                        { text: "Нормативные и руководящие документы", callback_data: 'one' }
+                    ],
+                    [
+                        { text: "Подсистема №1. Организационно - методические нормы", callback_data: 'two' }
+                    ],
+                    [
+                        { text: "Подсистема №2. Технические нормы проектирования", callback_data: 'three' }
+                    ],
+                    [
+                        { text: "Подсистема №3. Правила организации и технология строительного производства", callback_data: 'four' }
+                    ],
+                    [
+                        { text: "Подсистема №4. Экономические нормативы", callback_data: 'five' }
+                    ],
+                    [
+                        { text: "Сборники сметных норм на пусконалодочные работы", callback_data: 'six' }
+                    ],
+                    [
+                        { text: "Дополнение к ШНК", callback_data: 'seven' }
+                    ]
+                ]
+            }
+        }
+    )
+}
 
 bot.on("message", async ctx => {
     const msg = ctx.message.text.toLowerCase()
