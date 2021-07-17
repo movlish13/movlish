@@ -19,10 +19,11 @@ bot.action('start', ctx => {
 
 function sendStarMessage(ctx) {
     
-    ctx.deleteMessage();
+//     ctx.deleteMessage();
 
-    let startMessage = `Xush kelibsiz aziz mehmon! \nSiz bu yerda ШНК (SHNQ Shaharsozlik Norma va Qoidalari) bilan tanishasiz\n/star va /help buyrug'laridan foydalanishingiz mumkin!\nIltimos buruqlarni kirilchada yozing (asosan ruscha) Masalan: шнк, штукатурка, двер ...`;
-    bot.telegram.sendMessage(ctx.chat.id, startMessage,
+//     let startMessage = `Xush kelibsiz aziz mehmon! \nSiz bu yerda ШНК (SHNQ Shaharsozlik Norma va Qoidalari) bilan tanishasiz\n/star va /help buyrug'laridan foydalanishingiz mumkin!\nIltimos buruqlarni kirilchada yozing (asosan ruscha) Masalan: шнк, штукатурка, двер ...`;
+//     bot.telegram.sendMessage(ctx.chat.id, startMessage,
+    ctx.replyWithHTML((`<B>O'ZBEKISTON RESPUBLIKASI QURILISH VAZIRLIGI </B>\n (<b>ШНК</b> - SHaharsozlik Norma va Qoidalar)\n(<b>КМК</b> - Qurilish Me'yorlari va Qoidalari)\n<a href="https://mc.uz/gradostroitelnye-normy/">Shaharsozlik normalari</a> bilan tanishing`),
         {
             reply_markup: {
                 inline_keyboard: [
