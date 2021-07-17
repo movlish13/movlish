@@ -12,7 +12,7 @@ bot.start((ctx)=> {
 })
 
 bot.help(ctx => {
-    let text = `<b>Botimiz qaytarishi mumkin bo'lgan komponentlar:</b> \n` + `/start - <code>botni ishga tushirish byrug'i</code> \n` + `/help - yordamchi buyruq \n` + `<pre>Iltimos buruqlarni kirilchada yozing (asosan ruscha)</pre>Masalan: <code> шнк, штукатурка, двер ...</code>`
+    let text = `<b>Botimiz qaytarishi mumkin bo'lgan komponentlar:</b> \n` + `/start - <code>botni ishga tushirish buyrug'i</code> \n` + `/help - yordamchi buyruq \n` + `<pre>Iltimos so'zlarni kirilchada yozing (asosan ruscha)</pre>Masalan: <code> шнк, штукатурка, двер ...</code>`
 
     ctx.replyWithHTML(text).then()
 })
