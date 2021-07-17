@@ -197,5 +197,5 @@ bot.on("message", async ctx => {
     else if (msg.includes('смонт')) {
         ctx.replyWithHTML(`<a href="https://t.me/shnkuz/54">Скачать Образец</a> АКТ смонтированного оборудования, инвентаря и материалов.\n<a href="https://t.me/shnkuz/51">Скачать</a> ВЕДОМОСТЬ смонтированного оборудования\n<a href="https://t.me/shnkuz/52">Скачать Образец</a> ВЕДОМОСТЬ смонтированного оборудования\n<a href="https://t.me/shnkuz/56">Скачать ШНК 3.01.04-04</a> ПРИЕМКА В ЭКСПЛУАТАЦИЮ ЗАКОНЧЕННЫХ СТРОИТЕЛЬСТВОМ ОБЪЕКТОВ`)
     }
-    else {ctx.reply(`Bu haqida ma'lumot topilmadi.\nIltimos kirilchada yozib ko'ring!`)}
+    else {ctx.reply(`Bu haqida ma'lumot topilmadi.\nIltimos kirilchada yoki ruschada bexato yozib ko'ring!`)}
 })
