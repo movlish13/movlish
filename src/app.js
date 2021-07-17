@@ -21,8 +21,9 @@ function sendStarMessage(ctx) {
     
     ctx.deleteMessage();
 
-    let startMessage = 'Xush kelibsiz aziz mehmon siz bu yerda ШНК (SHNQ Shaharsozlik Norma va Qoidalari) bilan tanishasiz ';
-    bot.telegram.sendMessage(ctx.chat.id, startMessage,
+//     let startMessage = 'Xush kelibsiz aziz mehmon siz bu yerda ШНК (SHNQ Shaharsozlik Norma va Qoidalari) bilan tanishasiz ';
+//     bot.telegram.sendMessage(ctx.chat.id, startMessage,
+    ctx.replyWithHTML((`<B>O'ZBEKISTON RESPUBLIKASI QURILISH VAZIRLIGI </B>\n (<b>ШНК</b> - SHaharsozlik Norma va Qoidalar)\n(<b>КМК</b> - Qurilish Me'yorlari va Qoidalari)\n<a href="https://mc.uz/gradostroitelnye-normy/">Shaharsozlik normalari</a> bilan tanishing`),
         {
             reply_markup: {
                 inline_keyboard: [
@@ -203,5 +204,5 @@ bot.on("message", async ctx => {
     else if (msg.includes('Калькулятор')) {
         ctx.replyWithHTML(`<a href="https://www.calc.ru/kalkulyator-rascheta-kirpicha-onlayn.html">Havolaga o'tish</a> Калькулятор расчета кирпича онлайн\n<a href="https://metallicheckiy-portal.ru/calculator/calculator_metalla">Havolaga o'tish</a> Калькулятор металла онлайн\n<a href="http://metsi.ru/calc">Havolaga o'tish</a> Калькулятор металлопроката онлайн\n<a href="http://compositgroup74.ru/kalkulyator.html">Havolaga o'tish</a> Онлайн калькулятор расчета размеров, арматуры и количества бетона монолитного ленточного фундамента`)
     }
-    else {ctx.reply(`Bu haqida ma'lumot topilmadi.\nIltimos kirilchada yoki ruschada bexato yozib ko'ring!`)}
+    else ('err', (ctx) => {ctx.reply(`Bu haqida ma'lumot topilmadi.\nIltimos kirilchada yoki ruschada bexato yozib ko'ring!`)})
 })
