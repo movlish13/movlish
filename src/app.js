@@ -185,7 +185,7 @@ bot.on("message", async ctx => {
     else if (msg.includes('акт скр')) {
         ctx.replyWithHTML(`<a href="https://t.me/shnkuz/48">Скачать</a> АКТ Скрытых Работ\n<a href="https://t.me/shnkuz/49">Скачать</a> Образец АКТ Скрытых Работ\n<a href="https://t.me/shnkuz/50">Скачать</a> Яширин ишлар далолатномаси`)
     }
-    else if (msg.includes('м29')) {
+    else if (msg.includes('м-29')) {
         ctx.replyWithHTML(`<a href="https://t.me/shnkuz/43">Скачать</a> М-29\n<a href="https://t.me/shnkuz/42">Скачать</a> М-29\n<a href="https://t.me/shnkuz/40">Скачать mini</a> М-29\n<a href="https://t.me/shnkuz/41">Скачать Образец</a> М-29`)
     }
     else if (msg.includes('поле')) {
