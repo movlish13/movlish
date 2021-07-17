@@ -61,7 +61,11 @@ bot.on("message", async ctx => {
 //         ctx.replyWithHTML(`<B>O'ZBEKISTON RESPUBLIKASI QURILISH VAZIRLIGI </B>\n (<b>ШНК</b> - SHaharsozlik Norma va Qoidalar)\n(<b>КМК</b> - Qurilish Me'yorlari va Qoidalari) bilan tanishing`)
         sendStarMessage(ctx);
     }
-    if (msg.includes(`штукатурка`)) {
+    else if (msg.includes(`кмк`)) {
+//         ctx.replyWithHTML(`<B>O'ZBEKISTON RESPUBLIKASI QURILISH VAZIRLIGI </B>\n (<b>ШНК</b> - SHaharsozlik Norma va Qoidalar)\n(<b>КМК</b> - Qurilish Me'yorlari va Qoidalari) bilan tanishing`)
+        sendStarMessage(ctx);
+    }
+    else if (msg.includes(`штукатурка`)) {
         ctx.replyWithHTML(`Е15-2-1-1 Улучшенная штукатурка стен.\nЕ15-2-31-1 Штукатурка откосов.\nЕ15-2-36-1 Штукатурка по Сетке стен.\nВнутренний отделка.\nE15-2-31-1 Штукатурка откосов.\nЕ15-2-16-5 Штукатурка высококачественные стен.\nE46-2-9-2	ОТБИВКА ШТУКАТУРКИ С ПОВЕРХНОСТЕЙ СТЕН И ПОТОЛКОВ КИРПИЧНЫХ`)
     }
     else if (msg.includes(`травертин`)) {
