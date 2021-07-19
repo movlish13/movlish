@@ -11,8 +11,12 @@ bot.start((ctx)=> {
     ctx.reply(helpMessenger)
 })
 
+bot.command('contact', ctx => {
+    ctx.reply(`Biz bilan bog'laning @movlish13`);
+})
+
 bot.help(ctx => {
-    let text = `<b>Botimiz qaytarishi mumkin bo'lgan komponentlar:</b> \n` + `/start - <code>botni ishga tushirish buyrug'i</code> \n` + `/help - yordamchi buyruq \n` + `<pre>Iltimos so'zlarni kirilchada yozing (asosan ruscha)</pre>Masalan: <code> шнк, штукатурка, двер ...</code>`
+    let text = `<b>Botimiz qaytarishi mumkin bo'lgan komponentlar:</b> \n` + `/start - <code>botni ishga tushirish buyrug'i</code> \n` + `<a href="https://t.me/movlish13">/contact </a>- Biz bilan bog'laning \n` + `/help - yordamchi buyruq \n` + `<pre>Iltimos so'zlarni kirilchada yozing (asosan ruscha)</pre>Masalan: <code> шнк, штукатурка, двер ...</code>`
 
     ctx.replyWithHTML(text).then()
 })
