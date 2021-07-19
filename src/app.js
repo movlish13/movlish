@@ -12,7 +12,7 @@ bot.start((ctx)=> {
 })
 
 bot.command('contact', ctx => {
-    ctx.reply(`Biz bilan bog'laning @movlish13`);
+    ctx.replyWithHTML(`Biz bilan bog'laning <a href="https://t.me/movlish13">@movlish13</a>`);
 })
 
 bot.help(ctx => {
