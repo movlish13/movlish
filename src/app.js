@@ -69,6 +69,7 @@ bot.on("message", async ctx => {
     }
     else if (msg.includes(`qmq`)) {
         return sendStarMessage(ctx);
+    }
     else if (msg.includes(`кмк`)) {
 //         ctx.replyWithHTML(`<B>O'ZBEKISTON RESPUBLIKASI QURILISH VAZIRLIGI </B>\n (<b>ШНК</b> - SHaharsozlik Norma va Qoidalar)\n(<b>КМК</b> - Qurilish Me'yorlari va Qoidalari) bilan tanishing`)
         return sendStarMessage(ctx);
@@ -98,7 +99,7 @@ bot.on("message", async ctx => {
         return ctx.reply(`Е10-1-82-2 Уклад прогонов из досок.\nЕ10-1-82-1 Монтаж прогонов из досок.\nЕ10-1-2-1 Установка Балки, Стоек, Стропил\nЕ10-1-82-2 Уклад прогонов из досок.`)
     }
     else if (msg.includes('профнастил')) {
-        return return ctx.reply(`Е12-3-4-1 Установка кровли из ПРОФНАСТИЛ.`)
+        return ctx.reply(`Е12-3-4-1 Установка кровли из ПРОФНАСТИЛ.`)
     }
     else if (msg.includes('брусчатк')) {
         return ctx.reply(`E11-1-25-1 Брусчатка пешеходные дорожки\nЕ2705-002-01 УСТРОЙСТВО БРУСЧАТЫХ БРУСЧАТКИ 10 СМ\nЕ68-061-01 ДОП. 5 РАЗБОРКА ТРОТУАРОВ И ДОРОЖЕК ИЗ ПЛИТ С ИХ ОТНОСКОЙ И УКЛАДКОЙ`)
