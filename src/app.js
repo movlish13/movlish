@@ -136,7 +136,7 @@ bot.on("message", async ctx => {
         return ctx.reply(`Е11-1-2-4 УСТРОЙСТВО ПОДСТИЛАЮЩИХ СЛОЁВ ЩЕБЕНЬ.\nЕ6-1-1-1 УСТРОЙСТВО БЕТОННЫЕ ПОДГОТОВКА.`)
     }
     else if (msg.includes('кирпич')) {
-        return ctx.reply(Е08 КОНСТРУКЦИЯ ИЗ КИРПИЧ И БЛОК\nЕ46-4-1-4 РАЗБОРКА КЛАДКИ СТЕН ИЗ: КИРПИЧА (ishlatiladi)\nЕ46-4-1-4 РАЗБОРКА КЛАДКИ СТЕН ИЗ: КИРПИЧА (ishlatilmayd)\nЕ8-2-2-3 Кладка перегородок из кирпича.\nE8-3-2-1 КЛАДКА СТЕН ИЗ ЛЕГКОБЕТОННЫХ КАМНЕЙ БЕЗ ОБЛИЦОВКИ ДО 4 М\nE55-8-2 ШHК.ДОП.5	РАЗБОРКА КИРПИЧНЫХ ПЕРЕГОРОДОК НА ОТДЕЛЬНЫЕ КИРПИЧИ\nE53-2-6 ШHК.ДОП.5	РАЗБОРКА КЛАДКИ СТЕН ИЗ: КИРПИЧА`)
+        return ctx.reply(`Е08 КОНСТРУКЦИЯ ИЗ КИРПИЧА И БЛОК\nЕ46-4-1-4 РАЗБОРКА КЛАДКИ СТЕН ИЗ: КИРПИЧА (ishlatiladi)\nЕ46-4-1-4 РАЗБОРКА КЛАДКИ СТЕН ИЗ: КИРПИЧА (ishlatilmayd)\nЕ8-2-2-3 Кладка перегородок из кирпича.\nE8-3-2-1 КЛАДКА СТЕН ИЗ ЛЕГКОБЕТОННЫХ КАМНЕЙ БЕЗ ОБЛИЦОВКИ ДО 4 М\nE55-8-2 ШHК.ДОП.5	РАЗБОРКА КИРПИЧНЫХ ПЕРЕГОРОДОК НА ОТДЕЛЬНЫЕ КИРПИЧИ\nE53-2-6 ШHК.ДОП.5	РАЗБОРКА КЛАДКИ СТЕН ИЗ: КИРПИЧА`)
     }
     else if (msg.includes('стяжк')) {
         return ctx.reply(`Е11-1-11-5 Устройство стяжки.\nЕ11-1-11-6 Устройство стяжек.11-1-11-5`)
@@ -184,7 +184,7 @@ bot.on("message", async ctx => {
         return ctx.reply(`Е15-6-... ОБОЙНЫЕ РАБОТА\nЕ63-5-1 СНЯТИЕ ОБОЕВ\nЕ63-6-1 СМЕНА ОБОЕВ`)
     }
     else if (msg.includes('асфальт')) {
-        return ctx.reply(`Е2704-001-04 УСТРОЙСТВО ПОДСТИЛАЮЩИХ И ВЫРАВНИВАЮЩИХ СЛОЕВ ЩЕБНЯ\nЕ2706-020-01 УСТРОЙСТВО ПОКРЫТИЯ ТОЛЩИНОЙ 4 СМ ИЗ ГОРЯЧИХ АСФАЛЬТОБЕТОННЫХ СМЕСЕЙ(ТОЛЩИНОЙ 7 СМ)\nЕ2706-021-01 К=6	ПРИ ИЗМЕНЕНИИ ТОЛЩИНЫ ПОКРЫТИЯ НА 0,5 СМ ДОБАВЛЯТЬ К НОРМЕ 27-06-020-1`)
+        return ctx.reply(`Е27 АВТОМОБИЛЬНЫЕ ДОРОГИ\Е2704-001-04 УСТРОЙСТВО ПОДСТИЛАЮЩИХ И ВЫРАВНИВАЮЩИХ СЛОЕВ ЩЕБНЯ\nЕ2706-020-01 УСТРОЙСТВО ПОКРЫТИЯ ТОЛЩИНОЙ 4 СМ ИЗ ГОРЯЧИХ АСФАЛЬТОБЕТОННЫХ СМЕСЕЙ(ТОЛЩИНОЙ 7 СМ)\nЕ2706-021-01 К=6	ПРИ ИЗМЕНЕНИИ ТОЛЩИНЫ ПОКРЫТИЯ НА 0,5 СМ ДОБАВЛЯТЬ К НОРМЕ 27-06-020-1`)
     }
     else if (msg.includes('671')) {
         return ctx.reply(`<b><u>671-modda.</u>Loyiha-smeta hujjatlariga o‘zgartishlar kiritish</b>\n`+`Agar texnik hujjatlarga o‘zgartishlar kiritish tufayli bajarilishi kerak bo‘ladigan qo‘shimcha ishlar qiymati jihatidan smetada ko‘rsatilgan qurilish umumiy qiymatining o‘n foizidan oshib ketmasa va qurilish pudrati shartnomasida nazarda tutilgan ishlarning xususiyatini o‘zgartirmasa, buyurtmachi texnik hujjatlarga o‘zgartishlar kiritishga haqli.\n`+`Texnik hujjatlarga ushbu moddaning birinchi qismida ko‘rsatilganiga nisbatan kattaroq hajmda o‘zgartishlar kiritish taraflar kelishgan qo‘shimcha smeta asosida amalga oshiriladi.\n`+`Agar ishning qiymati pudratchiga bog‘liq bo‘lmagan sabablarga ko‘ra smetadan kamida o‘n foiz oshgan bo‘lsa, pudratchi ushbu Kodeksning <u>382-moddasiga</u> muvofiq smetani qayta ko‘rib chiqishni talab qilishga haqli.\n`+`Pudratchi loyiha-smeta hujjatlaridagi kamchiliklarni aniqlash va yo‘qotish bilan bog‘liq oqilona xarajatlarni qoplashni talab qilishga haqli.\n`+`<b>LexUZ sharhi</b>\n`+`Qo‘shimcha ma’lumot uchun qarang: O‘zbekiston Respublikasi Oliy xo‘jalik sudi Plenumining 2016-yil 23-dekabrdagi 306-son “Iqtisodiy sudlar tomonidan qurilish pudrati shartnomasidan kelib chiqadigan nizolarni hal etishda qonun hujjatlarini qo‘llashning ayrim masalalari to‘g‘risida”gi qarorining 6.1-bandi, 6.5-bandi, 7-bandining uchinchi xatboshisi.`)
