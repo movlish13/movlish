@@ -216,10 +216,10 @@ bot.on("message", async ctx => {
     else if (msg.includes('смонт')) {
         return ctx.replyWithHTML(`<a href="https://t.me/shnkuz/54">Скачать Образец</a> АКТ смонтированного оборудования, инвентаря и материалов.\n<a href="https://t.me/shnkuz/51">Скачать</a> ВЕДОМОСТЬ смонтированного оборудования\n<a href="https://t.me/shnkuz/52">Скачать Образец</a> ВЕДОМОСТЬ смонтированного оборудования\n<a href="https://t.me/shnkuz/56">Скачать ШНК 3.01.04-04</a> ПРИЕМКА В ЭКСПЛУАТАЦИЮ ЗАКОНЧЕННЫХ СТРОИТЕЛЬСТВОМ ОБЪЕКТОВ`)
     }
-    else if (msg.includes('Пропис')) {
+    else if (msg.includes('пропис')) {
         return ctx.replyWithHTML(`<a href="http://www.summa-propisyu.ru/?summ=269866635&vat=20&val=10&sep=0">Havolaga o'tish</a> Сумма Прописью Онлайн - сервис быстрого перевода`)
     }
-    else if (msg.includes('Калькулятор')) {
+    else if (msg.includes('калкулятор')) {
         return ctx.replyWithHTML(`<a href="https://www.calc.ru/kalkulyator-rascheta-kirpicha-onlayn.html">Havolaga o'tish</a> Калькулятор расчета кирпича онлайн\n<a href="https://metallicheckiy-portal.ru/calculator/calculator_metalla">Havolaga o'tish</a> Калькулятор металла онлайн\n<a href="http://metsi.ru/calc">Havolaga o'tish</a> Калькулятор металлопроката онлайн\n<a href="http://compositgroup74.ru/kalkulyator.html">Havolaga o'tish</a> Онлайн калькулятор расчета размеров, арматуры и количества бетона монолитного ленточного фундамента`)
     }
     else if (msg.includes('демонтаж')) {
