@@ -85,7 +85,7 @@ bot.on("message", async ctx => {
         return ctx.reply(`Е15-2-39-1 Травертин без ресунки, \nЕ15-2-39-2 Травертин с ресунки, `)
     }
     else if (msg.includes('кондиционер')) {
-        return ctx.replyWithHTML(`<a href="https://mc.uz/wp-content/up/VW/5JomlzNzxya9AweZoFvYwSxsRw9J6P.rar">ШНК 4.02.20-07 СКАЧАТЬ</a> ШНК\nЕ20-6 КОНДИЦИОНЕРЫ\nЕ20-6-18-1 Доп.6 Кондицанер раценкаси`)
+        return ctx.replyWithHTML(`<a href="https://mc.uz/wp-content/up/VW/5JomlzNzxya9AweZoFvYwSxsRw9J6P.rar">ШНК 4.02.20-07 СКАЧАТЬ</a> ШНК\nЕ20-6 КОНДИЦИОНЕРЫ\nЕ20-6-18-1 Доп.6 Кондицанер раценкаси\nДемотаж Кондиционеров в) ички санитар-техник қурилмаларни (водопровод, канализация, водосток-лар, отопления, вентиляция) – 0,4;\nв) то же, внутренних санитарно-технических устройств (водопровода, газопровода, канализации, водостоков, отопления, вентиляции) - 0,4`)
     }
     else if (msg.includes('бордюр')) {
         return ctx.reply(`Е27-2-10-1 Установка Бордюр (бортовых камней)\nЕ68-014-01 РАЗБОРКА БОРТОВЫХ КАМНЕЙ: НА БЕТОННОМ ОСНОВАНИИ\nЕ1504-011-01	ОКРАСКА ФАСАДОВ С ЛЕСОВ С ПОДГОТОВКОЙ ПОВЕРХНОСТИ ИЗВЕСТКОВАЯ (БОРДЮРЫ)`)
@@ -94,13 +94,13 @@ bot.on("message", async ctx => {
         return ctx.reply(`Е12-2-8-3 НАВЕСКА ВОДОСТОЧНЫХ ТРУБ.\nE58-15 ПЕРЕНАВЕСКА ВОДОСТОЧНЫХ ТРУБ\nE58-3 РАЗБОРКА МЕЛКИХ ПОКРЫТИЙ\nE58-10 СМЕНА ЧАСТЕЙ ВОДОСТОЧНЫХ ТРУБ`)
     }
     else if (msg.includes('желоб')) {
-        ctx.reply(`Е12-1-9-2 УСТРОЙСТВО ЖЕЛОБА.`)
+        ctx.reply(`Е12-1-9-2 УСТРОЙСТВО ЖЕЛОБА\nE58-3 РАЗБОРКА МЕЛКИХ ПОКРЫТИЙ\nE58-19-5СМЕНА МЕЛКИХ ПОКРЫТИЙ ИЗ ЛИСТОВОЙ СТАЛИ:ЖЕЛОБОВ\nШНК 4.02.70-05<a href="https://mc.uz/wp-content/up/bM/FXVqPAhFlx3Fd1btVqPnZo3wlZXRrr.rar"> Скачать</a>`)
     }
     else if (msg.includes('подоконные слив')) {
         return ctx.reply(`Е12-1-10-1 Устройство мелких покрытий брандмауэры (подоконные слив)`)
     }
     else if (msg.includes('доск')) {
-        return ctx.reply(`Е10-1-82-2 Уклад прогонов из досок.\nЕ10-1-82-1 Монтаж прогонов из досок.\nЕ10-1-2-1 Установка Балки, Стоек, Стропил\nЕ10-1-82-2 Уклад прогонов из досок.\nE58 Крыши, Кровли\nE58-12 УСТРОЙСТВО ОБРЕШЕТКИ\nE58-5 РЕМОНТ ДЕРЕВЯННЫХ ЭЛЕМЕНТОВ КОНСТ\nE58-1 РАЗБОРКА\nE58-2 РАЗБОРКА СЛУХОВЫХ ОКОН\nE58-4 РАЗБОРКА ПАРАПЕТНЫХ РЕШЕТОК`)
+        return ctx.reply(`ШНК 4.02.70-05<a href="https://mc.uz/wp-content/up/bM/FXVqPAhFlx3Fd1btVqPnZo3wlZXRrr.rar"> Скачать</a>\nE10 Деревянный конструкции\nЕ10-1-82-2 Уклад прогонов из досок.\nЕ10-1-82-1 Монтаж прогонов из досок.\nЕ10-1-2-1 Установка Балки, Стоек, Стропил\nЕ10-1-82-2 Уклад прогонов из досок.\nE11-1-45 УСТРОЙСТВО ПАЛУБНЫХ ПОЛОВ\nE58 Крыши, Кровли\nE58-12 УСТРОЙСТВО ОБРЕШЕТКИ\nE58-5 РЕМОНТ ДЕРЕВЯННЫХ ЭЛЕМЕНТОВ КОНСТ\nE58-1 РАЗБОРКА\nE58-2 РАЗБОРКА СЛУХОВЫХ ОКОН\nE58-4 РАЗБОРКА ПАРАПЕТНЫХ РЕШЕТОК`)
     }
     else if (msg.includes('профнастил')) {
         return ctx.reply(`Е12-3-4-1 Установка кровли из ПРОФНАСТИЛ.`)
@@ -175,7 +175,7 @@ bot.on("message", async ctx => {
         return ctx.reply(`Е0601-035-01	УСТРОЙСТВО СЕРДЕЧНИКОВ`)
     }
     else if (msg.includes('сесмапояс')) {
-        return ctx.reply(`Е0601-035-01 УСТРОЙСТВО СЕЙСМАПОЯСА`)
+        return ctx.replyWithHTML(`ШНК 4.02.70-05<a href="https://mc.uz/wp-content/up/bM/FXVqPAhFlx3Fd1btVqPnZo3wlZXRrr.rar"> Скачать</a>\nЕ0601-035-01 УСТРОЙСТВО СЕЙСМАПОЯС, УСТРОЙСТВО ПОЯСОВ`)
     }
     else if (msg.includes('обой')) {
         return ctx.reply(`Е15-6-... ОБОЙНЫЕ РАБОТА\nЕ63-5-1 СНЯТИЕ ОБОЕВ\nЕ63-6-1 СМЕНА ОБОЕВ`)
@@ -184,7 +184,7 @@ bot.on("message", async ctx => {
         return ctx.reply(`Е15-6-... ОБОЙНЫЕ РАБОТА\nЕ63-5-1 СНЯТИЕ ОБОЕВ\nЕ63-6-1 СМЕНА ОБОЕВ`)
     }
     else if (msg.includes('асфальт')) {
-        return ctx.reply(`Е27 АВТОМОБИЛЬНЫЕ ДОРОГИ\Е2704-001-04 УСТРОЙСТВО ПОДСТИЛАЮЩИХ И ВЫРАВНИВАЮЩИХ СЛОЕВ ЩЕБНЯ\nЕ2706-020-01 УСТРОЙСТВО ПОКРЫТИЯ ТОЛЩИНОЙ 4 СМ ИЗ ГОРЯЧИХ АСФАЛЬТОБЕТОННЫХ СМЕСЕЙ(ТОЛЩИНОЙ 7 СМ)\nЕ2706-021-01 К=6	ПРИ ИЗМЕНЕНИИ ТОЛЩИНЫ ПОКРЫТИЯ НА 0,5 СМ ДОБАВЛЯТЬ К НОРМЕ 27-06-020-1`)
+        return ctx.reply(`Е11-1-19 УСТРОЙСТВО ПОКРЫТИЙ АСФАЛЬТОБЕТОННЫХ\nЕ27 АВТОМОБИЛЬНЫЕ ДОРОГИ\Е2704-001-04 УСТРОЙСТВО ПОДСТИЛАЮЩИХ И ВЫРАВНИВАЮЩИХ СЛОЕВ ЩЕБНЯ\nЕ2706-020-01 УСТРОЙСТВО ПОКРЫТИЯ ТОЛЩИНОЙ 4 СМ ИЗ ГОРЯЧИХ АСФАЛЬТОБЕТОННЫХ СМЕСЕЙ(ТОЛЩИНОЙ 7 СМ)\nЕ2706-021-01 К=6	ПРИ ИЗМЕНЕНИИ ТОЛЩИНЫ ПОКРЫТИЯ НА 0,5 СМ ДОБАВЛЯТЬ К НОРМЕ 27-06-020-1`)
     }
     else if (msg.includes('671')) {
         return ctx.reply(`<b><u>671-modda.</u>Loyiha-smeta hujjatlariga o‘zgartishlar kiritish</b>\n`+`Agar texnik hujjatlarga o‘zgartishlar kiritish tufayli bajarilishi kerak bo‘ladigan qo‘shimcha ishlar qiymati jihatidan smetada ko‘rsatilgan qurilish umumiy qiymatining o‘n foizidan oshib ketmasa va qurilish pudrati shartnomasida nazarda tutilgan ishlarning xususiyatini o‘zgartirmasa, buyurtmachi texnik hujjatlarga o‘zgartishlar kiritishga haqli.\n`+`Texnik hujjatlarga ushbu moddaning birinchi qismida ko‘rsatilganiga nisbatan kattaroq hajmda o‘zgartishlar kiritish taraflar kelishgan qo‘shimcha smeta asosida amalga oshiriladi.\n`+`Agar ishning qiymati pudratchiga bog‘liq bo‘lmagan sabablarga ko‘ra smetadan kamida o‘n foiz oshgan bo‘lsa, pudratchi ushbu Kodeksning <u>382-moddasiga</u> muvofiq smetani qayta ko‘rib chiqishni talab qilishga haqli.\n`+`Pudratchi loyiha-smeta hujjatlaridagi kamchiliklarni aniqlash va yo‘qotish bilan bog‘liq oqilona xarajatlarni qoplashni talab qilishga haqli.\n`+`<b>LexUZ sharhi</b>\n`+`Qo‘shimcha ma’lumot uchun qarang: O‘zbekiston Respublikasi Oliy xo‘jalik sudi Plenumining 2016-yil 23-dekabrdagi 306-son “Iqtisodiy sudlar tomonidan qurilish pudrati shartnomasidan kelib chiqadigan nizolarni hal etishda qonun hujjatlarini qo‘llashning ayrim masalalari to‘g‘risida”gi qarorining 6.1-bandi, 6.5-bandi, 7-bandining uchinchi xatboshisi.`)
@@ -220,7 +220,17 @@ bot.on("message", async ctx => {
         return ctx.reply(`<a href="http://www.summa-propisyu.ru/?summ=269866635&vat=20&val=10&sep=0">Havolaga o'tish</a> Сумма Прописью Онлайн - сервис быстрого перевода`)
     }
     else if (msg.includes('Калькулятор')) {
-        return ctx.reply(`<a href="https://www.calc.ru/kalkulyator-rascheta-kirpicha-onlayn.html">Havolaga o'tish</a> Калькулятор расчета кирпича онлайн\n<a href="https://metallicheckiy-portal.ru/calculator/calculator_metalla">Havolaga o'tish</a> Калькулятор металла онлайн\n<a href="http://metsi.ru/calc">Havolaga o'tish</a> Калькулятор металлопроката онлайн\n<a href="http://compositgroup74.ru/kalkulyator.html">Havolaga o'tish</a> Онлайн калькулятор расчета размеров, арматуры и количества бетона монолитного ленточного фундамента`)
+        return ctx.replyWithHTML(`<a href="https://www.calc.ru/kalkulyator-rascheta-kirpicha-onlayn.html">Havolaga o'tish</a> Калькулятор расчета кирпича онлайн\n<a href="https://metallicheckiy-portal.ru/calculator/calculator_metalla">Havolaga o'tish</a> Калькулятор металла онлайн\n<a href="http://metsi.ru/calc">Havolaga o'tish</a> Калькулятор металлопроката онлайн\n<a href="http://compositgroup74.ru/kalkulyator.html">Havolaga o'tish</a> Онлайн калькулятор расчета размеров, арматуры и количества бетона монолитного ленточного фундамента`)
+    }
+    else if (msg.includes('демонт')) {
+        return ctx.replyWithHTML(`ШНК 4.02.70-05<a href="https://mc.uz/wp-content/up/bM/FXVqPAhFlx3Fd1btVqPnZo3wlZXRrr.rar"> Скачать</a>\nБинолар ва иншоотларни айрим конструкцияларини, ички санитар-техник қурилмалари ва ташқи мухандислик тармоқларини демонтаж (бузиш) ишларини бажариш харажатлари таъмирлаш-қурилиш ЭРСН тўпламларида ва ЭРСН қурилиш ишлари бўйича 46 тўплам “Бинолар ва иншоотларни реконструк-ция қилишда бажариладиган ишлар”да берилмаган бўлса, уларни демонтаж (бузиш) нормалари керакли ресурс смета нормаларини қурилиш ишлари бўйича материаллар, буюмлар ва конструкциялар, санитар-техник ускуналари, приборлар, арматуралари ва қувурларига қурувчи-ишчиларни меҳнат харажатлари, машинистларни меҳнат харажатлари, машина ва механизмлардан фойдаланилган вақти бўйича демонтаж ишлар қуйидаги коэффициентлар орқали аниқланади:\n
+        а) йиғма темирбетон ва бетон конструкцияларини  – 0,8;\n
+        б) йиғма ёғоч конструкцияларни – 0,8;\n
+        в) ички санитар-техник қурилмаларни (водопровод, канализация, водосток-лар, отопления, вентиляция) – 0,4;\n
+       г) ташқи водопровод, канализация, иссиқлик таъминоти тармоқларини – 0,6;\n
+        д) металл конструкциялар:\n
+        е) қурувчи-ишчилар харажатига - 0,6;\n
+        ж) машина ва механизмларни фойдаланиш вақти ва машинистларни меҳнат харажатига - 0,7.\n`)
     }
     else {ctx.reply(`Bu haqida ma'lumot topilmadi.\nIltimos kirilchada yoki ruschada bexato yozib ko'ring!`)}
 })
